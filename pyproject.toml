@@ -1,0 +1,16 @@
+[project]
+name = "clinical-decision-room"
+version = "0.1.0"
+description = "Clinical Decision Room - A2A agent for healthcare AI clinical decision support"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "a2a-sdk[http-server]==0.3.25",
+    "uvicorn",
+    "httpx",
+    "google-genai",
+    "typing-extensions",
+]
+
+[project.scripts]
+clinical-decision-room = "clinical_decision_room.__main__:main"
