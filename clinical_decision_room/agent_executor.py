@@ -17,7 +17,7 @@ from typing_extensions import override
 
 FHIR_EXTENSION_URI = "https://app.promptopinion.ai/schemas/a2a/v1/fhir-context"
 
-PANELIST_MODEL = "gemini-3.1-flash-lite-preview"
+PANELIST_MODEL = "gemini-3.1-flash-lite"
 SYNTHESIZER_MODEL = "gemini-3-flash-preview"
 
 _PANELIST_JSON_INSTRUCTION = """

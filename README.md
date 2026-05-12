@@ -247,7 +247,7 @@ The panelists and synthesizer use configurable models defined at the top of `age
 
 | Role | Model |
 | --- | --- |
-| Panelists (x4) | `gemini-3.1-flash-lite-preview` |
+| Panelists (x4) | `gemini-3.1-flash-lite` |
 | Synthesizer | `gemini-3-flash-preview` |
 
 Review and update these before production use — preview models may be deprecated or rotated.
